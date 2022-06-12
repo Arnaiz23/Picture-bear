@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brown-dark-hear: #c68d6d;
+  --brown-ligth-bear: #dd9f80;
+  --yellow-bear: #ffdaaa;
+  --inner-ear: #ffc477;
+  --nose-bear: #935b45;
+  --eyes-bear: #57565c;
+  --sky-bear: #8ff6ff;
+  --sky-dark-bear: #7de7ff;
+  --sky-ligth-bear: #ccf8ff;
+}
+
+body {
+  background-color: #333;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
